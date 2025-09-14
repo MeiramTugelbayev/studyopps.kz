@@ -1,0 +1,71 @@
+body {
+  padding: 25px;
+  font-family: Verdana;
+  box-sizing: border-box;
+  gap: 30px;
+  background: linear-gradient(90deg, #0099FF, white);
+}
+
+.site-name {
+  font-family: Verdana;
+  color: #003399;
+  font-size: 2em;
+  border-bottom: 4px double;
+  padding: 10px;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  list-style: none;
+  gap: 20px;
+  padding-left: 15px;
+}
+
+li > a {
+  text-decoration: none;
+}
+
+li > a:hover {
+  background-color: #66CCFF;
+}
+
+.hero {
+  padding: 10px 5px 2em 5px;
+}
+
+#contact {
+  padding: 5px;
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+#contact p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.email-link {
+    font-size: 16px;
+    color: #000056;
+    text-decoration: none;
+}
+
+.email-link:hover {
+    color: #0056b3;
+}
+
+footer {
+  text-align: center;
+  padding: 2px 5px 20px 5px;
+  border-top: 3px double;
+  font-size: 0.8rem;
+}

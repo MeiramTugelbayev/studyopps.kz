@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--To tell the browsers to use the latest rendering engine version (for example, for Internet Explorer) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <title>Гранты на академическую мобильность</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+    <div class="site-name">AMS - Academic Mobility Scholarships</div>
+    <nav class="navbar" id="navbar">
+      <ul class="nav-links">
+        <li><a href="#hero">Главная</a></li>
+        <li><a href="#contact">Контакты</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="hero" id="hero">
+      <h1>Реализуй свои возможности!</h1>
+      <h2>Выбери подходящую программу и открой для себя новые перспективы</h2>
+      <p>Краткосрочные гранты позволяют студентам и преподавателям обучаться за рубежом в течение семестра, предоставляя уникальную возможность для академического роста, личностного развития и погружения в культуру другой страны</p>
+      <button onclick="window.location.href='страница.html'" class="cta-btn">Выбрать грантовую программу</a>
+  </div>
+  <section id="contact">
+    <p>Если возникли вопросы, отправляйте их на электронный адрес:</p> 
+    <a href="mailto:m.tugelbayev@etu.edu.kz" class="email-link">m.tugelbayev@etu.edu.kz</a>
+  </section> 
+  <footer id="footer">
+    <p>&copy; AMS - Academic Mobility Scholarships 2025. Все права защищены</p>
+  </footer>
+  </body>
+</html>
